@@ -4,7 +4,7 @@ public class Java {
 static int num = 5;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-system.out.println(num);
+ System.out.println(num);
 	}
       
 
