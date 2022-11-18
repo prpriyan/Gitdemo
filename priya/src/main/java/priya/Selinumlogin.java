@@ -15,10 +15,10 @@ public class Selinumlogin {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
-		//driver.findElement(((WebElement) By.cssSelector("input(placeholder='username')")).sendKeys("Priya");
+		
 		driver.findElement(By.xpath("//input[@id=inputUsername']")).sendKeys("Priya");
 		driver.findElement(By.id("inputUsername")).sendKeys("Priya");
-		driver.findElement(By.name("inputPassword")).sendKeys("hello12345");
+		driver.findElement(By.name("inputPassword")).sendKeys("hello1");
 		driver.findElement(By.className("signInBtn")).click();
 		System.out.print(driver.findElement(By.className("error")).getText());
 		//Driver.findElement(By.cssSelector(null))
