@@ -18,7 +18,7 @@ public class Selinumlogin {
 		//driver.findElement(((WebElement) By.cssSelector("input(placeholder='username')")).sendKeys("Priya");
 		driver.findElement(By.xpath("//input[@id=inputUsername']")).sendKeys("Priya");
 		driver.findElement(By.id("inputUsername")).sendKeys("Priya");
-		driver.findElement(By.name("inputPassword")).sendKeys("hello123");
+		driver.findElement(By.name("inputPassword")).sendKeys("hello12345");
 		driver.findElement(By.className("signInBtn")).click();
 		System.out.print(driver.findElement(By.className("error")).getText());
 		//Driver.findElement(By.cssSelector(null))
